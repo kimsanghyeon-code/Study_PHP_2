@@ -1,0 +1,22 @@
+<HTML>
+    <HEAD>
+      <TITLE>PHP 테스트</TITLE>
+      <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </HEAD>
+    <BODY bgcolor="#FFFFFF" text="#000000">
+    <FONT size="4">PHP 테스트</FONT>
+    <FORM name="form1" method="post" action="view.php">
+      성:<BR><!--액션이 view.php 데이터가 도착해야할곳-->
+      <INPUT type="text" name="last_name"><BR>
+        <!-- name값은 변수의 키가 된다
+        이곳에서 입력된 값이 벨류가 된다
+        -->
+      이름:<BR>
+      <INPUT type="text" name="first_name"><BR>
+      연령:<BR>
+      <INPUT type="text" name="age"><BR>
+        <!-- 3개의 입력값이 여기서 view.php로 전달된다-->
+      <INPUT type="submit" value="송신">
+    </FORM>
+    </BODY>
+    </HTML>

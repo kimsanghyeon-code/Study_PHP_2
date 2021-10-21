@@ -1,0 +1,19 @@
+<!--라디오단추-->
+<HTML>
+    <HEAD>
+      <TITLE>텍스트 송신 테스트</TITLE>
+      <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </HEAD>
+    <BODY bgcolor="#FFFFFF" text="#000000">
+    <FONT size="4">텍스트 송신 테스트</FONT>
+    <FORM name="form1" method="post" action="view.php">
+      성별:<BR>
+      <INPUT type="radio" name="gender" value="남">남<BR>
+      <INPUT type="radio" name="gender" value="여">여<BR><BR>
+        <!-- 라디오는 반드시 한개의 데이터를 선택하기때문에-->
+        <!--체크박스처럼 배열을 쓰지 않고-->
+        <!-- 변수는 일반변수로 하되, name속성을 gender로 통일한다-->
+      <INPUT type="submit" value="송신">
+    </FORM>
+    </BODY>
+    </HTML>
